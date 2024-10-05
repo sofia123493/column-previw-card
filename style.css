@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+:root{
+--Bright-orange: hsl(31, 77%, 52%);
+--dark-cyan: hsl(184, 100%, 22%);
+--very-dark-cyan: hsl(179, 100%, 13%);
+
+--transparent-white: hsl(0, 0%, 100%, 0.75); /*parágrafos*/
+--very-light-gray: hsl(0, 0%, 95%); /*background, headings, buttons*/
+}
+.caixa-laranja{
+    background-color: hsl(31, 77%, 52%);
+    width: 238.657px;
+    height: 380px;
+    position: relative;
+    left: 255px;
+    top: 112px;
+    transition: none;
+    cursor: move;
+    color: hsl(0, 0%, 95%);
+    border-radius: 8px;
+}
+.carro-laranja{
+    position: relative;
+    left: 26px;
+    top: 21px;
+    transition: none;
+    cursor: move;
+}
+.sedans{
+    width: 136.656px;
+    position: relative;
+    left: 25px;
+    top: 15px;
+    transition: none;
+    font-family: "Lexend Deca", system-ui;
+}
+.paragrafo{
+    width: 175.989px;
+    position: relative;
+    left: 27px;
+    top: 20px;
+    transition: none;
+    cursor: move;
+    font-family: "Lexend Deca", sans-serif;
+}
+.botao{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 18px;
+    color: hsl(31, 77%, 52%);
+    width: 135px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 25px;
+    top: 42px;
+    transition: none;
+    cursor: move;
+    font-family: "Lexend Deca", sans-serif;
+}
+.legenda{
+    position: relative;
+    left: -2px;
+    top: 8px;
+    transition: none;
+    cursor: move;
+    font-family: "Lexend Deca", sans-serif;
+}
+.caixa-meio{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    width: 238.645px;
+    position: relative;
+   
+    height: 378.875px;
+    transform: translate(-23.3333px, -25.3333px);
+    transition: none;
+
+    
+    left: 512px;
+    top: -624px;
+    cursor: move;
+    height: 379.198px;
+    transform: translate(-23.3333px, -24.3333px);
+   
+}
+.carro-meio{
+    position: relative;
+    left: 19px;
+    top: 20px
+}
+.titulo-meio{
+    position: relative;
+    left: 13px;
+    top: 14px;
+    width: 99.9684px;
+    transition: none;
+    font-family: "Lexend Deca", system-ui;
+    
+}
+.texto-meio{
+    position: relative;
+    left: 19px;
+    top: 17px;
+    width: 186.615px;
+    transition: none;
+    font-family: "Lexend Deca", sans-serif;
+}
+.botao-meio{
+    position: relative;
+    width: 92.635px;
+    transition: none;
+    cursor: move;
+    border-radius: 18px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    width: 135px;
+    height: 35px;
+
+    left: 22px;
+    top: 43px;
+}
+.legenda-meio{
+    position: relative;
+    left: 14px;
+    top: 6px;
+    font-family: "Lexend Deca", sans-serif;
+}
+.direita{
+    background-color: hsl(179, 100%, 13%);
+    width: 239.99px;
+    position: relative;
+    
+    height: 380.208px;
+    transition: none;
+    cursor: move;
+    color: hsl(0, 0%, 95%);
+    border-radius: 8px;
+
+    left: 716px;
+    top: -269px;
+}
+.paragrafo-direita{
+    width: 184.657px;
+    position: relative;
+    left: 26px;
+    top: 17px;
+    transition: none;
+    cursor: move;
+    font-family: "Lexend Deca", sans-serif;
+}
+.titulo-direita{
+    position: relative;
+    left: 28px;
+    top: 11px;
+    transition: none;
+    cursor: move;
+    font-family: "Lexend Deca", system-ui;
+}
+.luxury{
+    position: relative;
+    left: 21px;
+    top: 21px;
+    transition: none;
+    cursor: move;
+    font-family: "Lexend Deca", sans-serif;
+}
+.botao-direita{
+    position: relative;
+    left: 43px;
+    top: 46px;
+    transition: none;
+    cursor: move;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 18px;
+    width: 135px;
+    height: 35px;
+    left: 34px;
+    top: 46px;
+    font-family: "Lexend Deca", sans-serif;
+}
+.legenda-direita{
+    font-family: "Lexend Deca", sans-serif;
+    position: relative;
+    left: 16px;
+    top: 5px;
+    transition: none;
+    cursor: move;
+}
